@@ -3,6 +3,7 @@ body{
     padding: 0px;
     width: 100%;
     overflow-x:hidden;
+    background-color: lightgray;
 }
 
 .nav{
@@ -13,6 +14,7 @@ body{
 
 nav ul{
     float: right;
+    margin-top: 25px;
 }
 
 nav ul li{
@@ -47,6 +49,11 @@ nav ul li .active{
     font-variant-caps: all-petite-caps;
     text-align-last: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+.abbg{
+    width: 100%;
+    height: 60vh;
+    opacity: 80%;
 }
 
 .details{
@@ -88,6 +95,13 @@ nav ul li .active{
     position: relative;
     text-align-last: center;
     font-size: 22px;
+}
+
+.footer1 p{
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 
 .footer2{

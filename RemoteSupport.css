@@ -13,6 +13,7 @@ body{
 
 nav ul{
     float: right;
+    margin-top: 25px;
 }
 
 nav ul li{
@@ -35,6 +36,11 @@ nav ul li a:hover{
 
 nav ul li .active{
     color: tomato;
+}
+
+.remotesuppot{
+    width: 80%;
+    height: 100vh;
 }
 
 .contact{

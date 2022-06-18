@@ -3,6 +3,7 @@ body{
     padding: 0px;
     width: 100%;
     overflow-x:hidden;
+    background-color: lightgray;
 }
 
 .nav{
@@ -13,6 +14,7 @@ body{
 
 nav ul{
     float: right;
+    margin-top: 25px;
 }
 
 nav ul li{
@@ -37,55 +39,6 @@ nav ul li .active{
     color: tomato;
 }
 
-.map{
-    height: 20vh;
-    width: 100px;
-}
-
-
-.contact{
-    background-color: black;
-    height: 35vh;
-}
-
-.service{
-    width: 100%;
+.con{
     margin-left: 15px;
-    font-size: 20px;
-    align-items: center;
-    text-align-last: center;
-    z-index: 1;
-    justify-content: center;
-}
-
-.footer{
-    height: 40vh;
-    background-color: #000;
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-}
-
-.footer1{
-    width: 33%;
-    margin-top: 3%;
-    position: relative;
-    text-align-last: center;
-    font-size: 22px;
-}
-
-.footer2{
-    width: 33%;
-    margin-top: 3%;
-    position: relative;
-    text-align-last: center;
-    font-size: 22px;
-}
-
-.footer3{
-    width: 33%;
-    margin-top: 3%;
-    position: relative;
-    text-align-last: center;
-    font-size: 22px;
 }

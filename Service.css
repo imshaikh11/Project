@@ -13,6 +13,7 @@ body{
 
 nav ul{
     float: right;
+    margin-top: 25px;
 }
 
 nav ul li{

@@ -14,6 +14,7 @@ body{
 
 nav ul{
     float: right;
+    margin-top: 25px;
 }
 
 nav ul li{
@@ -199,8 +200,31 @@ nav ul li .active{
 
 .footer3{
     width: 33%;
-    margin-top: 3%;
+    margin-top: 1%;
     position: relative;
     text-align-last: center;
     font-size: 22px;
+}
+
+.el email{
+    justify-content: left;
+}
+
+.el h3{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wp h3{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.phone h3{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.phone{
+    height: 0vh;
 }
