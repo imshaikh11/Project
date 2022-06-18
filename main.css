@@ -1,6 +1,9 @@
+
 body{
     margin: 0px;
     padding: 0px;
+    width: 100%;
+    overflow-x:hidden;
 }
 
 .nav{
@@ -40,6 +43,11 @@ nav ul li .active{
     height: 90vh;
 }
 
+.bg{
+    height: 90vh;
+    width: 100%;
+}
+
 .info{
     background-color: white;
     height: 25vh;
@@ -56,9 +64,9 @@ nav ul li .active{
 }
 
 .columns1{
-    width: 33%;
+    width: 31%;
     position: relative;
-    background-color: rgb(235, 248, 120);
+    background-color:lightgray;
     border-radius: 25px;
     transition: 1s;
     text-align-last: center;
@@ -71,9 +79,9 @@ nav ul li .active{
 }
 
 .columns2{
-    width: 33%;
+    width: 31%;
     position: relative;
-    background-color: rgb(195, 206, 100);
+    background-color: lightgray;
     border-radius: 25px;
     transition: 1s;
     text-align-last: center;
@@ -84,10 +92,15 @@ nav ul li .active{
     z-index: 1;
 }
 
+.Services{
+    width: 90%;
+    height: 26vh;
+}
+
 .columns3{
-    width: 33%;
+    width: 31%;
     position: relative;
-    background-color: rgb(225, 243, 60);
+    background-color: lightgray;
     border-radius: 25px;
     transition: 1s;
     text-align-last: center;
@@ -98,6 +111,11 @@ nav ul li .active{
     z-index: 1;
 }
 
+.remote{
+    width: 80%;
+    height: 26vh;
+}
+
 
 .space{
     background-color: white;
@@ -105,12 +123,17 @@ nav ul li .active{
 }
 
 .self{
-    background-color: rgb(25, 25, 25);
     height: 60vh;
 }
 
+.blur{
+    height: 60vh;
+    width: 100%;
+    opacity: 80%;
+}
+
 .self h2{
-    color: white;
+    color: black;
     font-size: 44px;
     margin-left: 25px;
     margin-top: 10px;
@@ -125,8 +148,10 @@ nav ul li .active{
     color: white;
     font-size: 29px;
     margin-left: 18px;
+    margin-right: 18px;
     padding: 5px;
-    text-align-last: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .service{
@@ -179,4 +204,3 @@ nav ul li .active{
     text-align-last: center;
     font-size: 22px;
 }
-

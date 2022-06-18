@@ -1,12 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow-x:hidden;
+}
 
-.self{
-    background-color: rgb(25, 25, 25);
-    height: 100vh;
+.nav{
+    background-color: black;
+    height: 10vh;
+    width: auto;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: tomato;
+}
+
+nav ul li .active{
+    color: tomato;
 }
 
 .self h2{
-    color: white;
-    font-size: 36px;
+    color: black;
+    font-size: 44px;
     margin-left: 25px;
     margin-top: 10px;
     padding: 5px;
@@ -15,3 +48,91 @@
     text-align-last: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.details{
+    color: #000;
+    font-size: 29px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 5px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact{
+    background-color: black;
+    height: 35vh;
+}
+
+.service{
+    width: 100%;
+    margin-left: 15px;
+    font-size: 20px;
+    align-items: center;
+    text-align-last: center;
+    z-index: 1;
+    justify-content: center;
+}
+
+.footer{
+    height: 60vh;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer1{
+    width: 33%;
+    margin-top: 1%;
+    position: relative;
+    text-align-last: center;
+    font-size: 22px;
+}
+
+.footer2{
+    width: 33%;
+    margin-top: 1%;
+    position: relative;
+    text-align-last: center;
+    font-size: 22px;
+}
+
+.ser{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.footer3{
+    width: 33%;
+    margin-top: 1%;
+    position: relative;
+    text-align-last: center;
+    font-size: 22px;
+}
+
+.el email{
+    justify-content: left;
+}
+
+.el h3{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wp h3{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.phone h3{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.phone{
+    height: 0vh;
+}
+
+
