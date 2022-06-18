@@ -72,11 +72,18 @@ nav ul li .active{
     transition: 1s;
     text-align-last: center;
     font-size: 22px;
+    text-decoration: none;
+    display: block;
     
 }
 .columns1:hover{
     transform: scale(1.1);
     z-index: 1;
+}
+
+.Sales{
+    width: 90%;
+    height: 26vh;
 }
 
 .columns2{
@@ -87,6 +94,7 @@ nav ul li .active{
     transition: 1s;
     text-align-last: center;
     font-size: 22px;
+    text-decoration: none;
 }
 .columns2:hover{
     transform: scale(1.1);
@@ -94,7 +102,7 @@ nav ul li .active{
 }
 
 .Services{
-    width: 90%;
+    width: 80%;
     height: 26vh;
 }
 
@@ -106,6 +114,7 @@ nav ul li .active{
     transition: 1s;
     text-align-last: center;
     font-size: 22px;
+    text-decoration: none;
 }
 .columns3:hover{
     transform: scale(1.1);
@@ -120,7 +129,7 @@ nav ul li .active{
 
 .space{
     background-color: white;
-    height: 8vh;
+    height: 5vh;
 }
 
 .self{
@@ -133,32 +142,30 @@ nav ul li .active{
     opacity: 80%;
 }
 
-.self h2{
-    color: black;
-    font-size: 44px;
-    margin-left: 25px;
-    margin-top: 10px;
-    padding: 5px;
-    font-style: oblique;
-    font-variant-caps: all-petite-caps;
-    text-align-last: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .details{
-    color: white;
+    color: #000;
     font-size: 29px;
     margin-left: 18px;
     margin-right: 18px;
     padding: 5px;
+    margin-top: -25%;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
 }
 
 .service{
-    height: 30vh;
+    height: 50vh;
 }
 
+
+.footer{
+    height: 50vh;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
 .contact{
     background-color: black;
     height: 35vh;
@@ -174,28 +181,31 @@ nav ul li .active{
     justify-content: center;
 }
 
-.footer{
-    height: 40vh;
-    background-color: #000;
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-}
-
 .footer1{
     width: 33%;
-    margin-top: 3%;
+    margin-top: 1%;
     position: relative;
     text-align-last: center;
     font-size: 22px;
+}
+
+.footer1 p{
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 
 .footer2{
     width: 33%;
-    margin-top: 3%;
+    margin-top: 1%;
     position: relative;
     text-align-last: center;
     font-size: 22px;
+}
+
+.ser li{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .footer3{
@@ -204,6 +214,8 @@ nav ul li .active{
     position: relative;
     text-align-last: center;
     font-size: 22px;
+    display: flex;
+    flex-direction: column;
 }
 
 .el email{
