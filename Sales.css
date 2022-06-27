@@ -1,27 +1,27 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
-.nav{
+.nav {
     background-color: black;
     height: 10vh;
     width: auto;
 }
 
-nav ul{
+nav ul {
     float: right;
     margin-top: 25px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
     color: aliceblue;
     text-decoration: none;
     font-size: 18px;
@@ -30,20 +30,60 @@ nav ul li a{
     cursor: pointer;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: tomato;
 }
 
-nav ul li .active{
+nav ul li .active {
     color: tomato;
 }
 
-.contact{
+.rows{
+    display: flex;
+    width: auto;
+    height: 500px;
+    background-color: #585858;
+    margin: 50px 50px;
+}
+
+.img {
+    width: 40%;
+}
+
+.img-sale{
+    width: 90%;
+    height: 50vh;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.data{
+    width: 60%;
+}
+
+.data p {
+    margin: 50px;
+    font-size: 24px;
+    font-style: italic;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.footer {
+    height: 50vh;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.contact {
     background-color: black;
     height: 35vh;
 }
 
-.service{
+.service {
     width: 100%;
     margin-left: 15px;
     font-size: 20px;
@@ -53,15 +93,7 @@ nav ul li .active{
     justify-content: center;
 }
 
-.footer{
-    height: 60vh;
-    background-color: #000;
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-}
-
-.footer1{
+.footer1 {
     width: 33%;
     margin-top: 1%;
     position: relative;
@@ -69,54 +101,45 @@ nav ul li .active{
     font-size: 22px;
 }
 
-.footer1 p{
-    margin-left: 15px;
+.footer1 p {
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.footer2 {
+    width: 33%;
+    margin-top: 1%;
+    position: relative;
+    font-size: 22px;
+}
+
+.footer2 h3 {
+    text-align-last: center;
+}
+
+.ser li {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-}
-
-.footer2{
-    width: 33%;
-    margin-top: 1%;
-    position: relative;
-    text-align-last: center;
-    font-size: 22px;
-}
-
-.ser{
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-}
-
-.footer3{
-    width: 33%;
-    margin-top: 1%;
-    position: relative;
-    text-align-last: center;
-    font-size: 22px;
-}
-
-.el email{
     justify-content: left;
 }
 
-.el h3{
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+.footer3 {
+    width: 33%;
+    margin-top: 1%;
+    position: relative;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
 }
 
-.wp h3{
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+.footer3 h3 {
+    text-align-last: center;
 }
 
-.phone h3{
-    font-size: 16px;
+.footer3 h4{
     font-family: 'Times New Roman', Times, serif;
-}
-
-.phone{
-    height: 0vh;
+    margin-top: -35px;
+    margin-left: 50px;
 }

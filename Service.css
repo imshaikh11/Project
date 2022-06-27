@@ -53,6 +53,68 @@ nav ul li .active{
     justify-content: center;
 }
 
+.columns {
+    height: 40vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    margin-left: 15px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.columns1 {
+    width: 31%;
+    position: relative;
+    background-color: lightgray;
+    border-radius: 25px;
+    transition: 1s;
+    text-align-last: center;
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.Sales {
+    width: 90%;
+    height: 26vh;
+}
+
+.columns2 {
+    width: 31%;
+    position: relative;
+    background-color: lightgray;
+    border-radius: 25px;
+    transition: 1s;
+    text-align-last: center;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.Services {
+    width: 80%;
+    height: 26vh;
+}
+
+.columns3 {
+    width: 31%;
+    position: relative;
+    background-color: lightgray;
+    border-radius: 25px;
+    transition: 1s;
+    text-align-last: center;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.remote {
+    width: 80%;
+    height: 26vh;
+}
+
 .footer{
     height: 40vh;
     background-color: #000;
